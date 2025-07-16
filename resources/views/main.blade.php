@@ -234,7 +234,7 @@
     </section><!-- /Team Section -->
 
     <!-- Important Dates Section -->
-    <section id="steps" class="steps section">
+    <section id="important-dates" class="steps section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <div><span>Important</span> <span class="description-title">Dates</span></div>

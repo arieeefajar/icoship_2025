@@ -29,12 +29,12 @@
     </div>
 </section><!-- /Portfolio Section -->
 
-<footer id="footer" class="footer">
+<footer id="contact" class="footer">
 
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-7 col-md-12 footer-about">
-                <h3 class="sitename">About ICoFA 2025</h3>
+                <h3 class="sitename">About ICoSHIP 2025</h3>
                 <a href="/" class="logo">
                     <img src="{{ url(asset('assets/img/' . $config['conference']->logo_alt)) }}" alt="logo_icofa">
                 </a>
