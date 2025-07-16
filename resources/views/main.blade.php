@@ -18,16 +18,16 @@
                             <p>{{ $config['conference']->theme }}</p>
                         </div>
 
-                        <div class="d-flex flex-column flex-md-row gap-3">
+                        <div class="d-flex flex-column flex-md-row gap-2">
                             <div class="cta-button">
-                                <a href="#services" class="btn">
+                                <a href="{{ $config['conference']->introduction_link }}" class="btn">
                                     <span>Introduction</span>
                                     <i class="bi bi-info-circle"></i>
                                 </a>
                             </div>
 
                             <div class="cta-button">
-                                <a href="#services" class="btn">
+                                <a href="{{ $config['conference']->register_link }}" target="_blank" class="btn">
                                     <span>Submit Here</span>
                                     <i class="bi bi-upload"></i>
                                 </a>
@@ -35,7 +35,7 @@
 
                             <div class="cta-button">
                                 <a href="#services" class="btn">
-                                    <span>Poster ICoFA 2025</span>
+                                    <span>Poster ICoSHIP 2025</span>
                                     <i class="bi bi-file-earmark-post"></i>
                                 </a>
                             </div>
@@ -62,7 +62,7 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="introduction" class="about section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
